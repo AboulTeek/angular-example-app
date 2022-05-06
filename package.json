@@ -3,6 +3,7 @@
   "version": "13.2.2",
   "license": "MIT",
   "scripts": {
+    "ng-high-memory": "node --max_old_space_size=8000 ./node_modules/@angular/cli/bin/ng",
     "prepare": "husky install",
     "postinstall": "ngcc",
     "start": "ng serve --open",
